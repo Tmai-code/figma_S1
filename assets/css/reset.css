@@ -1,0 +1,59 @@
+/* Box-sizing: border-box cho tất cả các phần tử */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Loại bỏ margin và padding mặc định */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Đặt lại font chữ và kích thước chữ cho body */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Đặt lại kiểu hiển thị của các thẻ media */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Đặt lại các thuộc tính cho input, button, textarea, select */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Loại bỏ gạch chân của link */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Đặt lại kiểu hiển thị của các thẻ list */
+ul,
+ol {
+  list-style: none;
+}
